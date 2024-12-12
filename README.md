@@ -6,7 +6,7 @@
 [Zhuoyan Xu*](https://pages.cs.wisc.edu/~zxu444/home/), [Khoi Duc Nguye*](https://khoiucd.github.io/), Preeti Mukherjee, [Somali Chaterji](https://schaterji.io/), [Saurabh Bagchi ](https://www.saurabhbagchi.us/), [Yingyu Liang](https://pages.cs.wisc.edu/~yliang/), [Yin Li](https://www.biostat.wisc.edu/~yli/)
 
 
-[[Paper]()] [[Project Page](https://zhuoyan-xu.github.io/ada-llava/)] [[Model Zoo](https://github.com/mu-cai/matryoshka-mmb/lob/main/docs/MODEL_ZOO.md)]
+[[Paper]()] [[Project Page](https://zhuoyan-xu.github.io/ada-llava/)] [[Model Zoo](./docs/MODEL_ZOO.md)]
 
 <img src="docs/teaser.png" width="80%">
 
