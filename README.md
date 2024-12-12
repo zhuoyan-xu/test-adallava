@@ -20,7 +20,7 @@
     - [ ] AdaLLaVA-prumerge-plus-L: 7b
 - [ ] The code for model training
 - [ ] The code for model inference
-- [ ] The code for evaluation wirh FLOPs reporting
+- [ ] The code for evaluation with FLOPs reporting
 - [ ] (Optional) Make the Table-LLaVA checkpoints compatible with the Transformers package (loadable via LlavaForConditionalGeneration.from_pretrained(''))
 
 ## Release
