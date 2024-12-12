@@ -122,7 +122,7 @@ Please check out our [Model Zoo](docs/MODEL_ZOO.md) for all public AdaLLaVA chec
 ## Dataset
 We follow original LLaVA repository and use their *stage-2:Visual Instruction Tuning* [data](https://github.com/haotian-liu/LLaVA/blob/main/docs/Data.md). See details for prepare dataset in [Train](#train).
 
-## Training
+## Train
 
 
 ### Prepare data
