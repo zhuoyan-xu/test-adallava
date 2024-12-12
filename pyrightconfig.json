@@ -2,6 +2,7 @@
 {
     "extraPaths": [
       "./src/LLaVA",
+      "./src"
     ],
     "typeCheckingMode": "off"
   }

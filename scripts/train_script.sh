@@ -9,8 +9,8 @@ deepspeed src/train_mem.py \
     --deepspeed ./src/LLaVA/scripts/zero3.json \
     --model_name_or_path liuhaotian/llava-v1.5-7b \
     --version v1 \
-    --data_path /home/ubuntu/projects/vqaData/data/Llava15/LLaVA-Instruct-150K/llava_v1_5_mix665k.json \
-    --image_folder /home/ubuntu/projects/vqaData/data/Llava15/images \
+    --data_path ./playground/data/LLaVA-Instruct-150K/llava_v1_5_mix665k.json \
+    --image_folder ./playground/data \
     --vision_tower openai/clip-vit-large-patch14-336 \
     --mm_projector_type mlp2x_gelu \
     --mm_vision_select_layer -2 \
@@ -19,7 +19,7 @@ deepspeed src/train_mem.py \
     --image_aspect_ratio pad \
     --group_by_modality_length True \
     --bf16 True \
-    --output_dir checkpoints/llava-v1.5-7b-task-binomial-${RUN_NUM} \
+    --output_dir checkpoints/llava-v1.5-7b-task-layer-${RUN_NUM} \
     --num_train_epochs 1 \
     --per_device_train_batch_size 4 \
     --per_device_eval_batch_size 4 \
@@ -39,4 +39,4 @@ deepspeed src/train_mem.py \
     --dataloader_num_workers 4 \
     --lazy_preprocess True \
     --report_to wandb \
-    --run_name llava-v1.5-13b-task-binomial-${RUN_NUM} \
+    --run_name llava-v1.5-7b-task-layer-${RUN_NUM} \
