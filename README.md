@@ -1,7 +1,7 @@
 
 # AdaLLaVA: Learning to Inference Adaptively for Multimodal Large Language Models
 
-<span style="color: red;">This is a draft version of our official code repo, will move to [here](https://github.com/zhuoyan-xu/AdaLLaVA) in the end.</span>
+> **This is a draft version of our official code repo, will move to [here](https://github.com/zhuoyan-xu/AdaLLaVA) in the end.**
 
 *Learning to Inference Adaptively for Multimodal Large Language Models*
 
