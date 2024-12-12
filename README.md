@@ -33,7 +33,6 @@
 ## Contents
 - [Setup](#setup)
 - [AdaLLaVA Weights](#adallava-weights)
-<!-- - [Demo](#Demo) -->
 - [Model Zoo](docs/MODEL_ZOO.md)
 - [Dataset](#dataset)
 - [Train](#train)
